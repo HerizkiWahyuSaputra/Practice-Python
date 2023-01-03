@@ -1,0 +1,8 @@
+def replace_word():
+
+    str = 'Hello everybody, I am Riz. How are you today?'
+    word_to_replace = input("Write the word to replace: ")
+    word_replacement = input("Write the word to replacement: ")
+    print(str.replace(word_to_replace, word_replacement))
+
+replace_word() 
